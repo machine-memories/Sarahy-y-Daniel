@@ -21,7 +21,7 @@ body{
     background-image: url('marmol.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: auto 100%;
     
 }
 
