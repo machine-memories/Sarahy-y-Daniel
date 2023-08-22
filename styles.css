@@ -3,6 +3,11 @@
     src: url('./fonts/Perpetua.ttf'); /*URL to font*/
 }
 
+@font-face {
+    font-family: 'Luimp'; /*a name to be used later*/
+    src: url('./fonts/Luimp Italic.ttf'); /*URL to font*/
+}
+
 
 *{
     
@@ -48,9 +53,9 @@ body{
     width: 80%;
 }
 
-h3{
-    font-family: 'Perpetua', sans-serif;
-    font-size: 2rem;
+h2{
+    font-family: 'Luimp', sans-serif;
+    font-size: 1.3rem;
 }
 
 p{
@@ -199,6 +204,16 @@ button{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.s2_4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-family: 'Luimp', sans-serif;
 }
 
 .s2_5{
