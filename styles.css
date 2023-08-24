@@ -301,21 +301,21 @@ button{
 
 
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 500px){
 p{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 p_s{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 p_d{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 button{
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 .rece{
@@ -392,6 +392,11 @@ button{
 
     p{
         width: 60%;
+        font-size: 1.8rem;
+    }
+
+    button{
+        font-size: 1.8rem;
     }
 
     .title{
