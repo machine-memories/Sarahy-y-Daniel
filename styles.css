@@ -30,11 +30,11 @@ html{
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url('marmol2.jpg');
+    background-image: url('backSD.jpg');
     background-repeat: repeat;
     background-attachment: fixed;
-    background-size: auto;
-    
+    background-size:auto 100%;
+    background-position: center;
 }
 
 .rece{
@@ -71,7 +71,7 @@ button{
     border: none;
     border-radius: 50px;
     padding: 5px 10px;
-    font-family: 'Perpetua', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 1.5rem;
     color: #909090;
     text-align: center;
@@ -90,14 +90,14 @@ button{
 }
 
 .section{
-    width: 95vw;
+    width: 90vw;
     height: 100vh;
-    margin: 10px;
+    margin: 20px;
     background-image: url('papel1.jpg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: auto 100%;
     border-radius: 20px;
-    filter: drop-shadow(-5px 5px 4px #898989);
+    filter: drop-shadow(-5px 5px 4px #464646);
 }
 
 .section1{
@@ -243,9 +243,18 @@ button{
 .dresscode{
     width: 85vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.adulto{
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
 }
 
 .section5{
@@ -265,6 +274,7 @@ button{
 }
 
 .hotel{
+    width: 85vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -291,7 +301,7 @@ button{
 
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 376px){
 p{
     font-size: 1.1rem;
 }
@@ -317,8 +327,53 @@ button{
 }
 }
 
+@media screen and (min-width: 768px){
+    .section{
+        width: 85vw;
+        height: 100vh;
+        margin: 10px;
+        background-image: url('papel1.jpg');
+        background-repeat: repeat;
+        background-size: 100%;
+        border-radius: 20px;
+        filter: drop-shadow(-5px 5px 4px #898989);
+    }
+
+    .section7{
+        height: 50vh;
+    }
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-image: url('backSD.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:100%;
+        background-position: center;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+
+    button{
+        font-size: 1.5rem;
+    }
+}
+
 
 @media screen and (min-width: 913px){
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-image: url('backSD.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:100%;
+        background-position: center;
+    }
     .rece{
         width: 25%;
     }
@@ -376,5 +431,9 @@ button{
 
     .section7{
         height: 50vh;
+    }
+
+    .adulto{
+        width: 65vw;
     }
 }
