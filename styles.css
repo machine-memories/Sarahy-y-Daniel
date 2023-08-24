@@ -33,7 +33,7 @@ body{
     background-image: url('backSD.jpg');
     background-repeat: repeat;
     background-attachment: fixed;
-    background-size:auto 100%;
+    background-size:cover;
     background-position: center;
 }
 
@@ -303,19 +303,19 @@ button{
 
 @media screen and (max-width: 376px){
 p{
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 p_s{
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 p_d{
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 button{
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 .rece{
