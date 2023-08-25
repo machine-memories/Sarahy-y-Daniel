@@ -159,7 +159,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:5%;
+    gap:4%;
 }
 
 .s2_1{
@@ -417,6 +417,7 @@ button{
     }
 p{
     font-size: 1.2rem;
+    width: 90%;
 }
 
 p_s{
@@ -458,5 +459,6 @@ p{
 button{
     font-size: 1.1rem;
 }
+
 }
 
