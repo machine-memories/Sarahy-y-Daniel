@@ -38,7 +38,7 @@ body{
 }
 
 .rece{
-    width: 15%;
+    width: 35%;
 }
 
 .deta{
@@ -320,7 +320,9 @@ button{
             width: 40%;
         }
        
-    
+        .rece{
+            width: 25%;
+        }
         .section7{
             height: 50vh;
         }
