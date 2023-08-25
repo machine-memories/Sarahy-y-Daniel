@@ -416,27 +416,27 @@ button{
         width: 80%;
     }
 p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 p_s{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 p_d{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 button{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .rece{
-    width: 32%;
+    width: 38%;
 }
 
 .deta{
-    width: 28%;
+    width: 35%;
 }
 
 body{
@@ -452,11 +452,11 @@ body{
 
 @media screen and (max-width: 375px){
 p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 button{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 }
 
