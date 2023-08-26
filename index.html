@@ -2,87 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+
     <link rel="icon" href="icon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+    <link rel="stylesheet" href="styles.css">
     
     <title>Sarahy y Daniel</title>
 </head>
 <body>
+    <div class="frontpage">
+        <div class="solid_black">
+            <div class="solid_green">
+                <img class="title animate__animated animate__fadeInDown" src="title.png" alt="titulo">
+            </div>
+        </div>
+    </div>
     <div class="main-container">
-        <div class="section1">
-            <div class="solid_black">
-                <div class="solid_green">
-                    <div class="s1_1 animate__animated animate__fadeInDown">
-                        <img class="title" src="title.png" alt="titulo">
-                    </div>
-                    <!-- <div class="s1_2 animate__animated animate__fadeInUp">
-                        <p style="color: white;">7 OCTUBRE 2023</p>
-                    </div> -->
+        
+        <div class="invitacion card">
+            <p>Con la bendición de Dios <br> y la compañía de nuestros padres</p>
+            <div class="padres">
+                <div class="maternos">
+                    <p class="p_s">Jesús Olmos</p>
+                    <p class="p_s">Guadalupe Flores</p>
                 </div>
-            </div>  
-        </div>
-
-        <div class="section section2">
-            <div class="s2_1">
-                <p>Con la bendición de Dios <br> y la compañía de nuestros padres</p>
-            </div>
-
-            <div class="s2_2">
-                <div class="Maternos">
-                    
-                        <p class="p_s">Jesús Olmos</p>
-                        <p class="p_s">Guadalupe Flores</p>
-                    
-                </div>
-                <div class="Paternos">
-                  
-                        <p class="p_d">Dolores Romo</p>
-                  
+                <div class="paternos">
+                    <p class="p_d">Dolores Romo</p>
                 </div>
             </div>
-
-            <div class="s2_3">
-                <p>Queremos compartir con ustedes la alegría de nuestro matrimonio 
-                    y tenemos el honor de invitarles el día
-                </p>
-            </div>
-
-            <div class="s2_4">
-                <p style="font-family: 'Luimp', sans-serif;">07 OCTUBRE 2023</p>
-            </div>
-
-            <div class="s2_5">
-                <p>En el templo San Diego de Alcántara en punto de las 14:15 horas
-                Impartirá la bendición nupcial el P. Antonio Rizo</p>
-                <br>
+            <p>Queremos compartir con ustedes la alegría de nuestro matrimonio 
+                y tenemos el honor de invitarles el día
+            </p>
+            <p style="font-family: 'Luimp', sans-serif;">07 OCTUBRE 2023</p>
+            <p>En el templo San Diego de Alcántara en punto de las 14:15 horas
+                Impartirá la bendición nupcial <br> el P. Antonio Rizo</p>
+            <div class="botonbox">
                 <button onclick="location.href='https://goo.gl/maps/nnT4RDx1PbEpuijm7'"> <i class="fa-solid fa-caret-right"></i> Ver mapa</button>
-                <br>
+            </div>  
                 <p>Guanajuato, Gto.</p>
-            </div>
         </div>
-        
-
-        <!-- <div class="section section3">
-            <img class="cere" src="ceremonia@4x.png" alt="">
-            <p>Iglesia San Diego de Alcántara</p>
-            <p><strong>14:15 hrs</strong></p>
-            <p>Calle de Sopeña s/n, frente al Jardín de la Unión, Guanajuato</p>
+        <div class="recepcion card">
+            <div class="botonbox">
+                <img class="rece" src="recepcion@4x.png" alt="recepcion">
+            </div>
             
-            
-        </div> -->
-        
-        <div class="section section4">
-            <img class="rece" src="recepcion@4x.png" alt="">
             <p>Después de la Ceremonia Religiosa agradecemos su presencia en</p>
             
             <p>EX HACIENDA SAN GABRIEL DE BARRERA</p>
@@ -90,7 +65,9 @@
             <p>KM 2.5, Guanajuato-Marfil, El Cerrito, 36050, Guanajuato, Gto.</p>
             
             <p>16:30 Horas</p>
-            <button onclick="location.href='https://goo.gl/maps/MkSPkSiLLTqDcC116'"> <i class="fa-solid fa-caret-right"></i> Ver mapa</button>
+            <div class="botonbox">
+                <button onclick="location.href='https://goo.gl/maps/MkSPkSiLLTqDcC116'"> <i class="fa-solid fa-caret-right"></i> Ver mapa</button>
+            </div>
             <div class="dresscode">
                 <p>DRESS CODE</p>
             <br>
@@ -99,45 +76,41 @@
             <div class="adulto">
                 <p style="width: 40%;">ADULTO</p>
             </div>
-            
         </div>
-        
-        <div class="section section5">
-            
-            <div class="mesa">
+        <div class="detalles card">
+            <div class="botonbox">
                 <img src="detalles@4x.png" alt="" class="deta">
-                <br>
-                <p>MESA DE REGALOS</p>
-            <p>Ponemos a su disposición nuestras sugerencias en</p>
-            <p>Liverpool: 50353644</p>
-            <button onclick="location.href='https://mesaderegalos.liverpool.com.mx/milistaderegalos/50353644'"> <i class="fa-solid fa-caret-right"></i> Mesa de regalos</button>
             </div>
-            
-            <!-- <img src="hotel@4x.png" alt="" class="hote"> -->
 
+            <div class="mesa">
+                <p>MESA DE REGALOS</p>
+                <p>Ponemos a su disposición nuestras sugerencias en</p>
+                <p>Liverpool: 50353644</p>
+                <div class="botonbox">
+                <button onclick="location.href='https://mesaderegalos.liverpool.com.mx/milistaderegalos/50353644'"> <i class="fa-solid fa-caret-right"></i> Mesa de regalos</button>
+                </div>
+            </div>
             <div class="hotel">
                 <p>SUGERENCIAS DE HOSPEDAJE</p>
             
-            <button onclick="location.href='https://goo.gl/maps/LnQr4pgD637wxvQo9'"> <i class="fa-solid fa-caret-right"></i> Hotel Misión</button>
-            <button onclick="location.href='https://www.airbnb.mx/s/Guanajuato--Gto./homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2023-09-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=5&channel=EXPLORE&query=Guanajuato%2C%20Gto.&place_id=ChIJ6_EMi_VzK4QRdB5XZdGw9CU&date_picker_type=calendar&checkin=2023-10-07&checkout=2023-10-08&source=structured_search_input_header&search_type=autocomplete_click'"> <i class="fa-solid fa-caret-right"></i>Airbnb&nbsp;&nbsp;&nbsp; </button>
-            <button onclick="location.href='https://www.booking.com/searchresults.es-mx.html?ss=Guanajuato&ssne=Guanajuato&ssne_untouched=Guanajuato&label=es-mx-booking-desktop-0fsZRFl8FBmL0WPvvclzKwS652829001763%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp1010058%3Ali%3Adec%3Adm&aid=2311236&lang=es-mx&sb=1&src_elem=sb&src=searchresults&dest_id=-1669986&dest_type=city&checkin=2023-10-07&checkout=2023-10-08&group_adults=2&no_rooms=1&group_children=0'"> <i class="fa-solid fa-caret-right"></i> Booking&nbsp;&nbsp;</button>
+                <div class="botonbox">
+                    <button onclick="location.href='https://goo.gl/maps/LnQr4pgD637wxvQo9'"> <i class="fa-solid fa-caret-right"></i> Hotel Misión</button>
+                </div>
+                <div class="botonbox">
+                    <button onclick="location.href='https://www.airbnb.mx/s/Guanajuato--Gto./homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2023-09-01&monthly_length=3&price_filter_input_type=0&price_filter_num_nights=5&channel=EXPLORE&query=Guanajuato%2C%20Gto.&place_id=ChIJ6_EMi_VzK4QRdB5XZdGw9CU&date_picker_type=calendar&checkin=2023-10-07&checkout=2023-10-08&source=structured_search_input_header&search_type=autocomplete_click'"> <i class="fa-solid fa-caret-right"></i>Airbnb&nbsp;&nbsp;&nbsp; </button>
+                </div>
+                <div class="botonbox">
+                    <button onclick="location.href='https://www.booking.com/searchresults.es-mx.html?ss=Guanajuato&ssne=Guanajuato&ssne_untouched=Guanajuato&label=es-mx-booking-desktop-0fsZRFl8FBmL0WPvvclzKwS652829001763%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-65526620%3Alp1010058%3Ali%3Adec%3Adm&aid=2311236&lang=es-mx&sb=1&src_elem=sb&src=searchresults&dest_id=-1669986&dest_type=city&checkin=2023-10-07&checkout=2023-10-08&group_adults=2&no_rooms=1&group_children=0'"> <i class="fa-solid fa-caret-right"></i> Booking&nbsp;&nbsp;</button>
+                </div>
             </div>
-        
-            
         </div>
-        
-        <!-- <div class="section section6">
-            
-            
-        </div> -->
-        
-        <div class="section section7">
-            <!-- <img src="confirmacion@4x.png" alt="" class="conf"> -->
+        <div class="confirmacion card">
             <p>CONFIRMA TU ASISTENCIA</p>
             <p>Tu confirmación es muy importante para la planeación de nuestro día. Por favor hazla a la brevedad posible.</p>
-            <button onclick="location.href='https://wa.me/+5214772443590'"> <i class="fa-solid fa-caret-right"></i> Confirmar</button>
+            <div class="botonbox">
+                <button onclick="location.href='https://wa.me/+5214772443590'"> <i class="fa-solid fa-caret-right"></i> Confirmar</button>
+            </div>
         </div>
     </div>
 </body>
-<script src="script.js"></script>
 </html>
