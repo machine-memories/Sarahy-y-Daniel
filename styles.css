@@ -202,7 +202,7 @@ button{
     }
 
     .frontpage{
-        background-size: cover;
+        background-size: auto 100%;
     }
 
     p{
@@ -238,7 +238,7 @@ button{
     }
 
     .frontpage{
-        background-size: cover;
+        background-size: auto 100%;
     }
 
     p{
